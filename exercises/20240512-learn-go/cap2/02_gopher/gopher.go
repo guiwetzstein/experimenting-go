@@ -2,8 +2,15 @@ package main
 
 import "fmt"
 
+// Package level variable
+// You can't use short declaration operator here, it must be declared with "var"
+var test = 10
+
 func main() {
+	fmt.Printf("test: %v %T\n", test, test)
+
 	// Short declaration operator, auto type inference
+	// And these are function/block level variables
 	x := 10
 	y := "Good morning"
 
