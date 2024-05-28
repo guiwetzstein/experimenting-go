@@ -27,4 +27,12 @@ func main() {
 	x, z := 30, 40
 	fmt.Printf("x: %v %T\n", x, x)
 	fmt.Printf("z: %v %T\n", z, z)
+
+	w := 20 + 20
+	fmt.Printf("w: %v %T\n", w, w)
+
+	k := 10 == 10
+	fmt.Printf("k: %v %T\n", k, k)
+	k = 10 > 20
+	fmt.Printf("k: %v %T\n", k, k)
 }
